@@ -25,3 +25,29 @@ td {
 caption {
     padding: 10px;
 }
+
+h3 {
+    color: rgb(240,90,90)
+}
+
+.links-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179,57,81)
+}
+
+.links-list a{
+    color: #fff;
+    text-decoration: none;
+}
+.links-list li {
+    background-color: rgb(179,57,81);
+    padding: 1em 2em;
+    display: inline-block;
+
+}
+.links-list li:hover {
+    background-color: rgb(66,28,40);
+    color: #fff;
+}
