@@ -1,0 +1,53 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235,235,235);
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
+}
+
+h3 {
+    color: rgb(240,90,90)
+}
+
+.links-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179,57,81)
+}
+
+.links-list a{
+    color: #fff;
+    text-decoration: none;
+}
+.links-list li {
+    background-color: rgb(179,57,81);
+    padding: 1em 2em;
+    display: inline-block;
+
+}
+.links-list li:hover {
+    background-color: rgb(66,28,40);
+    color: #fff;
+}
